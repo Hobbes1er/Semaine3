@@ -1,0 +1,79 @@
+/*Rajout css simplon semaine3*/
+
+ul
+{
+	list-style-type: square;
+}
+
+
+
+/*CSS exercice semaine2*/
+
+/*Changer la couleur d'un des textes et centrage du titre*/
+
+h1
+{
+	color: purple;
+	text-align:center;
+}
+
+/*centrage d'informaticien...*/
+
+#En-tête p
+{
+	text-align:center;
+}
+
+h2
+{
+	color: rgb(129,39,126);
+}
+
+/*Image de Fond gris à la page*/
+
+body
+{
+	background-image:url("images/fond.png");
+}
+
+/*police personnalisée*/
+
+@font-face {
+    font-family: 'learning_curve_proregular';
+    src: url('polices/LearningCurve_OT-webfont.eot');
+    src: url('polices/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/LearningCurve_OT-webfont.woff') format('woff'),
+         url('polices/LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('polices/LearningCurve_OT-webfont.svg#learning_curve_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1,h2
+{
+	font-family: 'learning_curve_proregular', serif;
+	font-size: 2.5em;
+}
+
+/*bordure*/
+
+#En-tête
+{
+	border: 1px black solid;
+}
+
+/*ombre*/
+
+img
+{
+		box-shadow: 10px 10px 30px black;
+		padding-right: 20px;
+}
+
+/*photo flottante*/
+
+.photoflottante
+{
+	float: right;
+}
